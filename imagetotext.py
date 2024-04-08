@@ -4,10 +4,10 @@ import os
 
 
 # Setting the Tesseract OCR path
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+pytesseract.pytesseract.tesseract_cmd = r'Your  tesseract.exe file directory here' 
 
 # Image file path
-image_path = r'D:\UpWork Sample Proposal\upworkCoverLetter\ClientSeeProposal.jpg'
+image_path = r'Your Image file path'
 
 # Read file name and extension
 image_name, image_extension = os.path.splitext(os.path.basename(image_path))
